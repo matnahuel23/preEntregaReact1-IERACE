@@ -1,3 +1,4 @@
+import CartWidget from "../CartWidget/CartWidget"
 const NavBar = () => {
     return (
         <nav>
@@ -7,6 +8,7 @@ const NavBar = () => {
                 <button>Remeras</button>
                 <button>Pantalones</button>
             </div>
+            <CartWidget />
         </nav>
     )
 }
