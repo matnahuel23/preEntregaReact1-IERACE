@@ -1,32 +1,32 @@
+import './NavBar.css'
 import CartWidget from "../CartWidget/CartWidget";
 import { Link, NavLink } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
 
 const NavBar = () => {
     return (
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">MatNahuel Sports</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Principal</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Indumentaria
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Masculina</a></li>
-                                <li><a class="dropdown-item" href="#">Femenina</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+        <nav className = "NavBar">
+            <Link to='/'>
+                <h3>MatNahuel</h3>
+            </Link>
+            <div className='Categories'>
+                <NavLink to={`category/terror`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>
+                    Terror
+                </NavLink>
+                <NavLink to={`category/suspenso`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>
+                    Suspenso
+                </NavLink>
+                <NavLink to={`category/comedia`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>
+                    Comedia
+                </NavLink>
+                <NavLink to={`category/romantica`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>
+                    Romantica
+                </NavLink>
+                <NavLink to={`category/fantasia`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>
+                    Fantasia
+                </NavLink>
+                <NavLink to={`category/policial`} className={({isActive})=> isActive ? 'ActiveOption' : 'Option'}>
+                    Policial
+                </NavLink>
             </div>
             <CartWidget />
         </nav>       
