@@ -1,4 +1,5 @@
 import CartWidget from "../CartWidget/CartWidget";
+import { Link, NavLink } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
@@ -17,11 +18,11 @@ const NavBar = () => {
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Sexo
+                                Indumentaria
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Masculino</a></li>
-                                <li><a class="dropdown-item" href="#">Femenino</a></li>
+                                <li><a class="dropdown-item" href="#">Masculina</a></li>
+                                <li><a class="dropdown-item" href="#">Femenina</a></li>
                             </ul>
                         </li>
                     </ul>
