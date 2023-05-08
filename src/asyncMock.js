@@ -6,7 +6,7 @@ const products = [
         category: 'Calzado Femenino',
         img: '',
         stock: 25,
-        descripcion: 'Descripcion del producto 1 color 1'
+        description: 'primero'
     },
     {
         id: '2',
@@ -15,7 +15,7 @@ const products = [
         category: 'Calzado Femenino',
         img: '',
         stock: 10,
-        descripcion: 'Descripcion del producto 1 color 2'
+        description: 'segundo'
     },
     {
         id: '3',
@@ -24,14 +24,24 @@ const products = [
         category: 'Calzado Femenino',
         img: '',
         stock: 5,
-        descripcion: 'Descripcion del producto 1 color 3'
+        description: 'tercero'
     },
 ]
 
-export const getProducts = () => {
+export const getProducts = () => { 
     return new Promise ((resolve) => {
         setTimeout(() => {
             resolve (products)
+        }, 500);
+    }
+    )
+}
+
+export const getProductsById = (productId) => { /* productId recibido por parametro */
+    return new Promise ((resolve) => {
+        setTimeout(() => {
+            /* busco por ID con el find*/
+            resolve (products.find(prod => prod.id === productId))
         }, 500);
     }
     )
