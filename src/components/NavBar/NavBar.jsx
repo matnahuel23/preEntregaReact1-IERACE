@@ -12,7 +12,7 @@ const NavBar = () => {
             </Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span>
-                    <img src={Logo} alt="menu hamburguesa alterno y fachero" />
+                    <img src={Logo} title="menú hamburguesa" alt="menu hamburguesa alterno y fachero" />
                 </span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
