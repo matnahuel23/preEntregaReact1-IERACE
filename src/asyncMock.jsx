@@ -5,7 +5,7 @@ const product = [
         price: 10,
         category: 'romantica',
         duration: '120',
-        img: '',
+        img: 'https://pics.filmaffinity.com/Diario_de_una_pasi_n-565006977-large.jpg',
         stock: 25,
         description: 'Es una pelicula romantica'
     },
@@ -15,7 +15,7 @@ const product = [
         price: 200,
         category: 'fantasia',
         duration: '140',
-        img: '',
+        img: 'https://i.blogs.es/3e839c/star-wars/1366_2000.jpg',
         stock: 2,
         description: 'Es todo lo que esta bien'
     },
@@ -25,7 +25,7 @@ const product = [
         price: 20,
         category: 'comedia',
         duration: '90',
-        img: '',
+        img: 'https://mx.web.img3.acsta.net/pictures/18/10/09/22/48/0468850.jpg',
         stock: 2,
         description: 'Muy graciosa'
     },
@@ -35,17 +35,17 @@ const product = [
         price: 120,
         category: 'suspenso',
         duration: '90',
-        img: '',
+        img: 'https://pics.filmaffinity.com/El_sexto_sentido-351070748-large.jpg',
         stock: 5,
         description: 'A verla hasta el final'
     },
     {
         id: '5',
-        name: 'El conjuro',
+        name: 'El exorcista',
         price: 120,
         category: 'terror',
         duration: '95',
-        img: '',
+        img: 'https://imgmedia.larepublica.pe/640x914/larepublica/migration/images/NWQ5UNN3QBDUNCO42ABVSS4TFE.webp',
         stock: 5,
         description: 'Para verla a oscuras'
     },
@@ -55,7 +55,7 @@ const product = [
         price: 20,
         category: 'comedia',
         duration: '100',
-        img: '',
+        img: 'https://http2.mlstatic.com/D_NQ_NP_967648-MLA28885639781_122018-O.jpg',
         stock: 3,
         description: 'Clasico'
     },
@@ -65,7 +65,7 @@ const product = [
         price: 200,
         category: 'fantasia',
         duration: '340',
-        img: '',
+        img: 'https://tr.web.img2.acsta.net/pictures/bzp/01/29276.jpg',
         stock: 5,
         description: 'Magia por aqui y magia por alla'
     },
