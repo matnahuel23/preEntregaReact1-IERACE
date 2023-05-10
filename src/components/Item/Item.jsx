@@ -4,7 +4,7 @@ import './Item.css'
 /* recibo las props con los datos */
 const Item = ({id, name, img, price, stock}) => {
     return (
-        <article className='CardItem'>
+        <article className='CardItem' class="card">
             <header className='Header'>
                 <h2 className='ItemHeader'>
                     {name}
@@ -13,7 +13,7 @@ const Item = ({id, name, img, price, stock}) => {
             <picture>
                 <img src={img} alt={name} className='ItemImg'/>
             </picture>
-            <section>
+            <section className='Information'>
                 <p className='Info'>
                     Precio: ${price}
                 </p>

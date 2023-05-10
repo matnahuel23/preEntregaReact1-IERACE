@@ -11,17 +11,16 @@ h1 {
   padding-bottom: 2vh;
   text-decoration: dotted;
   text-align: center;
-  color: lightgray;
   font-size: 2em;
   font-family: "Bebas Neue", cursive;
 }
 
 body {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
   width: 100%;
   min-height: 100vh;
-  grid-template-rows: auto 1fr auto;
   margin-bottom: 0;
-  background-color: rgb(64, 59, 59);
-  color: lightgray;
 }

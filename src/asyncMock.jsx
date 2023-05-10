@@ -6,7 +6,7 @@ const product = [
         category: 'romantica',
         duration: '121',
         img: 'https://mx.web.img2.acsta.net/c_310_420/medias/nmedia/18/67/61/01/20070878.jpg',
-        stock: 25,
+        stock: 2,
         description: 'En un hogar para ancianos, Duke obtiene permiso para leerle una historia romántica a una residente, la señora Hamilton, que sufre de demencia senil y pérdida de memoria. Ella recuerda partes de la historia, aunque sólo algunas partes y con cierta reserva. La historia inicia a finales de la década de los años 30, cuando una joven de familia adinerada, Allie Hamilton (Rachel McAdams), pasa las variaciones de verano en Seabrook. Ahí conoce a un trabajador del pueblo, Noah Calhoun (Ryan Gosling), un despreocupado joven con quien inicia un romance que no es bien visto por las diferentes clases sociales que representan los amantes. Aunque su relación pasa por reclamos, discusiones e incluso la Segunda Guerra Mundial, ambos luchan constantemente por superar los obstáculos y mantenerse juntos. Basada en la novela homónima de Nicholas Sparks, Diario de una pasión es una película de drama y romance.'
     },
     {
@@ -16,7 +16,7 @@ const product = [
         category: 'fantasia',
         duration: '121',
         img: 'https://es.web.img3.acsta.net/c_310_420/medias/nmedia/18/71/18/12/20061511.jpg',
-        stock: 2,
+        stock: 3,
         description: 'Los gobernantes del Imperio Galáctico, la fuerza del mal que domina el universo, capturan a la princesa Leia, quien posee datos confidenciales sobre su centro de operaciones militares, denominado "Estrella de la Muerte". Antes de su secuestro, la Princesa transfiere la información ultrasecreta a la base de datos del robot R2-D2. Catalogado como un material inservible, R2-D2, junto con su compañero C3PO, son deportados a un planeta remoto, siendo comprados por el joven Luke Skywalker en el mercado negro. Debido a un hecho fortuito, Luke accede al mensaje de la princesa Leia, quien solicita el auxilio del veterano Caballero Jedi Obi-Wan Kenobi. Luke, Obi-Wan, los robots, el piloto Han Solo y el gigantesco wookiee Chewbacca conforman la tripulación que intentará liberar a la princesa Leia de los dominios de Darth Vader, la autoridad suprema del Imperio Galáctico.'
     },
     {
@@ -36,7 +36,7 @@ const product = [
         category: 'suspenso',
         duration: '107',
         img: 'https://es.web.img3.acsta.net/c_310_420/medias/nmedia/18/84/77/79/19757766.jpg',
-        stock: 5,
+        stock: 3,
         description: 'Cole Sear, un niño de ocho años, oculta un terrible secreto: Su mente se ve acosada por amenazantes espíritus. Demasiado joven para comprender el porqué de estas apariciones y traumatizado por sus poderes paranormales, Cole se hunde en un miedo enfermizo y se niega a revelar a nadie la causa de su aislamiento, a excepción de un psicólogo infantil. La búsqueda de una explicación racional guiará a Cole y a su terapeuta hacia una verdad sorprendente e inexplicable.'
     },
     {
@@ -66,7 +66,7 @@ const product = [
         category: 'fantasia',
         duration: '152',
         img: 'https://es.web.img3.acsta.net/c_310_420/pictures/14/04/30/11/55/592219.jpg',
-        stock: 5,
+        stock: 4,
         description: 'Harry Potter es un niño huérfano criado por su tío Vernon y su tía Petunia que lo odian. Desde que era pequeño, estos siempre le han contado que sus padres murieron en un accidente de coche. El día de su decimoprimer cumpleaños, Harry recibe la inesperada visita de un hombre gigantesco de nombre Rubeus Hagrid. Este le revela que es, de hecho, hijo de dos poderosos magos y que él también posee extraordinarios poderes. Lleno de alegría, el chico acepta ir a estudiar a Hogwarts, el famoso colegio de magia y hechicería. Por fin, tiene la oportunidad de hacer amigos. Odiado por Severus Snape, profesor de Pociones, y protegido por Albus Dumbledore, director del colegio, Harry intentará dilucidar el misterio de la piedra filosofal.'
     },
     {
@@ -78,6 +78,16 @@ const product = [
         img: 'https://mx.web.img2.acsta.net/c_310_420/pictures/21/04/24/21/47/3410528.png',
         stock: 5,
         description: 'El frio y misterioso H (Jason Statham) es el nuevo guardia de seguridad de camionetas de efectivo que sorprende a sus compañeros de trabajo durante un atraco en el que inesperadamente desata habilidades de precisión. En Justicia implacable, su equipo se pregunta quién es y de dónde vino. Pronto, el motivo último del tirador se vuelve claro cuando toma medidas dramáticas e irrevocables para ajustar cuentas.'
+    },
+    {
+        id: '9',
+        name: 'Jurasic Park',
+        price: 20,
+        category: 'fantasia',
+        duration: '122',
+        img: 'https://es.web.img3.acsta.net/c_310_420/pictures/14/03/25/09/25/346980.jpg',
+        stock: 2,
+        description: 'John Hammond, magnate propietario de la empresa multinacional en bioingeniería InGen, ha soñado toda su vida con construir el mayor parque de atracciones del mundo. Una isla en Costa Rica donde habiten las criaturas más espectaculares que han pisado la Tierra: los dinosaurios. Pese a la extinción de estos reptiles, InGen ha logrado clonar diversas especies mediante la manipulación de segmentos de ADN de la propia sangre de dinosaurio, encontrada en mosquitos fosilizados en ámbar.'
     },
 ]
 
