@@ -22,3 +22,5 @@ function App(){
 }
 
 export default App;
+
+/* comentario para 2da Preentrega REACT*/
